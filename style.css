@@ -484,6 +484,24 @@ width: 1200px;
 }
 /*END SECTION-6*/
 
+/*ANIMATION-SCROL*/
+@keyframes appear{
+  from{
+opacity: 0;
+scale: 0.5;
+  }
+  to{
+opacity: 1;
+scale: 1;
+  }
+}
+.block /*كل صفحة تعمللها ديف بنفس الاسم لكي عند نزول صفحات كلها ياتيها تاثير وحدها*/{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+/*END-ANIMATION-SCROL*/
+
 /*SECTION-7*/
 
 /*END SECTION-7*/
