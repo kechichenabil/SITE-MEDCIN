@@ -485,6 +485,7 @@ width: 1200px;
 /*END SECTION-6*/
 
 /*ANIMATION-SCROL*/
+
 @keyframes appear{
   from{
 opacity: 0;
